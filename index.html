@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>Ekart|product</title>
+ 
+</head>
+<body>
+    <div class="container">
+    
+        <div class="row" >
+            <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #e3f2fd;"">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">Ekart</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="registration.html">Register</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Logout</a>
+                      </li>
+                      <!--<li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown link
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>-->
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+           
+        </div><!--header section end or first row end-->
+        <div class="row mt-4">
+            <div class="col-md-3  p-3">
+                <h5>Filter by category</h5><hr>
+                <p><a href="#" class="anchore">All</a></p>
+                <p><a href="#" class="anchore">Mobile</a></p>
+                <p><a href="#" class="anchore">Cloth</a></p>
+                <p><a href="#" class="anchore">Shoes</a></p>
+                <h5>Filter by Price</h5><hr>
+                <form method="GET">
+                  <div class="mb-3">
+                    <label for="Input1" class="form-label">Min</label>
+                    <input type="Number" class="form-control" id="Input1" name="min">
+                  </div>
+                  <div class="mb-3">
+                    <label for="Input2" class="form-label">Max</label>
+                    <input type="Number" class="form-control" id="Input2" name="max">
+                  </div>
+                  <div>
+                    <input type="submit" class="btn btn-danger" value="Search">
+                  </div>
+                </form>
+                <br>
+                <h5>Sort By Price</h5><hr>
+                <p><a href="#" class="anchore">High to Low</a></p>
+                <p><a href="#" class="anchore">Low to High</a></p>
+            </div><!--Side bar end-->
+            <div class="col-md-9 bg-light">
+                <div class="row">
+                  <div class="col md-3">
+                    <div class="card" style="width:100%;">
+                      <img src="static/images/laptop.jpeg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Product 1</h5>
+                        <p class="card-text">Product 1 detail</p>
+                        <p class="card-text">Price</p>
+                        <a href="product_details.html" class="btn btn-danger">See details</a>
+                      </div>
+                    </div>
+                  </div><!--Product 1 end-->
+                  <div class="col md-3">
+                    <div class="card" style="width:100%;">
+                      <img src="static/images/laptop.jpeg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">Product 2 detail</p>
+                        <p class="card-text">Price</p>
+                        <a href="product_details.html" class="btn btn-danger">See details</a>
+                      </div>
+                    </div>
+                  </div><!--Product 2 end-->
+                  <div class="col md-3">
+                    <div class="card" style="width:100%;">
+                      <img src="static/images/laptop.jpeg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Product 3</h5>
+                        <p class="card-text">Product 3 detail</p>
+                        <p class="card-text">Price</p>
+                        <a href="product_details.html" class="btn btn-danger">See details</a>
+                      </div>
+                    </div>
+                  </div><!--Product 3 end-->
+                  <div class="col md-3">
+                    <div class="card" style="width:100%;">
+                      <img src="static/images/laptop.jpeg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Product 4</h5>
+                        <p class="card-text">Product 4 detail</p>
+                        <p class="card-text">Price</p>
+                        <a href="product_details.html" class="btn btn-danger">See details</a>
+                      </div>
+                    </div>
+                  </div><!--Product 4 end-->
+                </div>
+            </div><!--product list end-->
+           
+        </div><!--Main section end or Second row end-->
+
+        <div class="row mt-4 bg-secondary bg-gradient">
+            <div class="col-md-4 p-3">
+               <h5> Address </h5><hr>
+               2nd Floor,Landmark Building,<br>
+               Near F.C.college,<br>
+               Pune-41002,<br>
+               Maharashtra,<br>
+               Contact:9868574828
+            </div><!--Address end-->
+            <div class="col-md-4  p-3">
+                <h5> Quick Links </h5><hr>
+                <a href="index.html" class="anchore"><strong>Home</strong></a><br>
+                <a href="about.html" class="anchore"><strong>About</strong></a><br>
+                <a href="contact.html" class="anchore"><strong>Contact</strong></a><br>
+            </div><!--Quick Links end-->
+            <div class="col-md-4 p-3">
+                <h5>Contact us</h5><hr>
+                <h4><a href="#"> <i class="bi bi-facebook"></i></a></h4>
+                <h4><a href="#"> <i class="bi bi-twitter"></i></i></a></h4>
+                <h4><a href="#"> <i class="bi bi-linkedin"></i></i></i></a></h4>
+            </div><!--Social media end-->
+        </div><!--Footer section end or Third row end-->
+    </div>
+
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/popper.js"></script>
+</body>
+</html>
